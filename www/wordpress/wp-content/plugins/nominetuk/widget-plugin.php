@@ -24,7 +24,7 @@ class wp_numinetuk_plugin extends WP_Widget
             'classname' => 'wp_numinetuk_plugin',
             'description' => 'Add the component 5 of nominetuk test.'
         );
-        // parent::WP_Widget(false, $name = __('My Widget', 'wp_widget_plugin') );
+
         parent::__construct('pu_media_upload', 'Media Upload Widget', $widget_ops);
         add_action('admin_enqueue_scripts', array($this, 'upload_scripts'));
         wp_register_style( 'component5css', plugins_url('css/style.css', __FILE__) );
@@ -59,9 +59,9 @@ class wp_numinetuk_plugin extends WP_Widget
             $title = '';
             $text = '';
             $textarea = '';
-            //$image = '';
+
         }
-        //$image = ! empty( $instance['image_url'] ) ? $instance['image_url'] : '';
+
         $image_url = !empty($instance['image_url']) ? $instance['image_url'] : '';
         ?>
 
@@ -97,15 +97,15 @@ class wp_numinetuk_plugin extends WP_Widget
 // widget update
     function update($new_instance, $old_instance)
     {
-            print_r($new_instance);
-            echo 'update';
+
+
         $instance = array();
         $instance['title'] = ( ! empty( $new_instance['title'] ) ) ? strip_tags( $new_instance['title'] ) : '';
         $instance['text'] = strip_tags($new_instance['text']);
         $instance['textarea'] = strip_tags($new_instance['textarea']);
         $instance['image_url'] = ( ! empty( $new_instance['image_url'] ) ) ? $new_instance['image_url'] : '';
 
-        // $instance['image'] = $new_instance['image'];
+
             return $instance;
 
     }
