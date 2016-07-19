@@ -1,0 +1,349 @@
+[19-Jul-2016 22:08:28 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING) in /var/www/wordpress/wp-content/themes/twentysixteen/functions.php on line 442
+[19-Jul-2016 22:08:28 UTC] PHP Stack trace:
+[19-Jul-2016 22:08:28 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/edit.php:0
+[19-Jul-2016 22:08:28 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/edit.php:10
+[19-Jul-2016 22:08:28 UTC] PHP   3. require_once() /var/www/wordpress/wp-admin/admin.php:31
+[19-Jul-2016 22:08:28 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[19-Jul-2016 22:08:28 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:68
+[19-Jul-2016 22:08:29 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING) in /var/www/wordpress/wp-content/themes/twentysixteen/functions.php on line 442
+[19-Jul-2016 22:08:29 UTC] PHP Stack trace:
+[19-Jul-2016 22:08:29 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[19-Jul-2016 22:08:29 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/admin-ajax.php:22
+[19-Jul-2016 22:08:29 UTC] PHP   3. require_once() /var/www/wordpress/wp-load.php:37
+[19-Jul-2016 22:08:29 UTC] PHP   4. require_once() /var/www/wordpress/wp-config.php:68
+[19-Jul-2016 22:09:01 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING) in /var/www/wordpress/wp-content/themes/twentysixteen/functions.php on line 442
+[19-Jul-2016 22:09:01 UTC] PHP Stack trace:
+[19-Jul-2016 22:09:01 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/post.php:0
+[19-Jul-2016 22:09:01 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/post.php:12
+[19-Jul-2016 22:09:01 UTC] PHP   3. require_once() /var/www/wordpress/wp-admin/admin.php:31
+[19-Jul-2016 22:09:01 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[19-Jul-2016 22:09:01 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:68
+[19-Jul-2016 22:09:08 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING) in /var/www/wordpress/wp-content/themes/twentysixteen/functions.php on line 442
+[19-Jul-2016 22:09:08 UTC] PHP Stack trace:
+[19-Jul-2016 22:09:08 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/post.php:0
+[19-Jul-2016 22:09:08 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/post.php:12
+[19-Jul-2016 22:09:08 UTC] PHP   3. require_once() /var/www/wordpress/wp-admin/admin.php:31
+[19-Jul-2016 22:09:08 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[19-Jul-2016 22:09:08 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:68
+[19-Jul-2016 22:09:09 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING) in /var/www/wordpress/wp-content/themes/twentysixteen/functions.php on line 442
+[19-Jul-2016 22:09:09 UTC] PHP Stack trace:
+[19-Jul-2016 22:09:09 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[19-Jul-2016 22:09:09 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/admin-ajax.php:22
+[19-Jul-2016 22:09:09 UTC] PHP   3. require_once() /var/www/wordpress/wp-load.php:37
+[19-Jul-2016 22:09:09 UTC] PHP   4. require_once() /var/www/wordpress/wp-config.php:68
+[19-Jul-2016 22:11:50 UTC] Array
+(
+    [post_author] => 1
+    [post_date] => 2016-07-19 22:11:50
+    [post_date_gmt] => 2016-07-19 22:11:50
+    [post_content] => 
+    [post_content_filtered] => 
+    [post_title] => post field group
+    [post_excerpt] => 
+    [post_status] => publish
+    [post_type] => acf
+    [comment_status] => closed
+    [ping_status] => closed
+    [post_password] => 
+    [post_name] => acf_post-field-group
+    [to_ping] => 
+    [pinged] => 
+    [post_modified] => 2016-07-19 22:11:50
+    [post_modified_gmt] => 2016-07-19 22:11:50
+    [post_parent] => 0
+    [menu_order] => 0
+    [post_mime_type] => 
+    [guid] => http://192.168.33.10/?post_type=acf&#038;p=22
+)
+
+[19-Jul-2016 22:11:58 UTC] Array
+(
+    [post_author] => 1
+    [post_date] => 2016-07-19 22:11:58
+    [post_date_gmt] => 2016-07-19 22:11:58
+    [post_content] => 
+    [post_content_filtered] => 
+    [post_title] => post field group
+    [post_excerpt] => 
+    [post_status] => publish
+    [post_type] => acf
+    [comment_status] => closed
+    [ping_status] => closed
+    [post_password] => 
+    [post_name] => acf_post-field-group
+    [to_ping] => 
+    [pinged] => 
+    [post_modified] => 2016-07-19 22:11:58
+    [post_modified_gmt] => 2016-07-19 22:11:58
+    [post_parent] => 0
+    [menu_order] => 0
+    [post_mime_type] => 
+    [guid] => http://192.168.33.10/?post_type=acf&#038;p=22
+)
+
+[19-Jul-2016 22:12:28 UTC] Array
+(
+    [post_author] => 1
+    [post_date] => 2016-07-19 22:12:28
+    [post_date_gmt] => 2016-07-19 22:12:28
+    [post_content] => 
+    [post_content_filtered] => 
+    [post_title] => post group
+    [post_excerpt] => 
+    [post_status] => publish
+    [post_type] => acf
+    [comment_status] => closed
+    [ping_status] => closed
+    [post_password] => 
+    [post_name] => acf_post-group
+    [to_ping] => 
+    [pinged] => 
+    [post_modified] => 2016-07-19 22:12:28
+    [post_modified_gmt] => 2016-07-19 22:12:28
+    [post_parent] => 0
+    [menu_order] => 0
+    [post_mime_type] => 
+    [guid] => http://192.168.33.10/?post_type=acf&#038;p=24
+)
+
+[19-Jul-2016 22:13:35 UTC] Array
+(
+    [post_author] => 1
+    [post_date] => 2016-07-19 22:13:35
+    [post_date_gmt] => 2016-07-19 22:13:35
+    [post_content] => 
+    [post_content_filtered] => 
+    [post_title] => 53w5
+    [post_excerpt] => 
+    [post_status] => publish
+    [post_type] => acf
+    [comment_status] => closed
+    [ping_status] => closed
+    [post_password] => 
+    [post_name] => acf_53w5
+    [to_ping] => 
+    [pinged] => 
+    [post_modified] => 2016-07-19 22:13:35
+    [post_modified_gmt] => 2016-07-19 22:13:35
+    [post_parent] => 0
+    [menu_order] => 0
+    [post_mime_type] => 
+    [guid] => http://192.168.33.10/?post_type=acf&#038;p=26
+)
+
+[19-Jul-2016 22:13:53 UTC] Array
+(
+    [post_author] => 1
+    [post_date] => 2016-07-19 22:13:53
+    [post_date_gmt] => 2016-07-19 22:13:53
+    [post_content] => 
+    [post_content_filtered] => 
+    [post_title] => test
+    [post_excerpt] => 
+    [post_status] => publish
+    [post_type] => acf
+    [comment_status] => closed
+    [ping_status] => closed
+    [post_password] => 
+    [post_name] => acf_test
+    [to_ping] => 
+    [pinged] => 
+    [post_modified] => 2016-07-19 22:13:53
+    [post_modified_gmt] => 2016-07-19 22:13:53
+    [post_parent] => 0
+    [menu_order] => 0
+    [post_mime_type] => 
+    [guid] => http://192.168.33.10/?post_type=acf&#038;p=25
+)
+
+[19-Jul-2016 22:15:00 UTC] Array
+(
+    [post_author] => 1
+    [post_date] => 2016-07-19 22:13:53
+    [post_date_gmt] => 2016-07-19 22:13:53
+    [post_content] => 
+    [post_content_filtered] => 
+    [post_title] => test
+    [post_excerpt] => 
+    [post_status] => publish
+    [post_type] => acf
+    [comment_status] => closed
+    [ping_status] => closed
+    [post_password] => 
+    [post_name] => acf_test
+    [to_ping] => 
+    [pinged] => 
+    [post_modified] => 2016-07-19 22:15:00
+    [post_modified_gmt] => 2016-07-19 22:15:00
+    [post_parent] => 0
+    [menu_order] => 0
+    [post_mime_type] => 
+    [guid] => http://192.168.33.10/?post_type=acf&#038;p=25
+)
+
+[19-Jul-2016 22:16:21 UTC] Array
+(
+    [post_author] => 1
+    [post_date] => 2016-07-11 16:35:12
+    [post_date_gmt] => 2016-07-11 16:35:12
+    [post_content] => Welcome to WordPress. This is your first post. Edit or delete it, then start writing!
+
+[do_widget id=pu_media_upload-2]
+
+&nbsp;
+
+&nbsp;
+    [post_content_filtered] => 
+    [post_title] => Hello world!
+    [post_excerpt] => 
+    [post_status] => publish
+    [post_type] => post
+    [comment_status] => open
+    [ping_status] => open
+    [post_password] => 
+    [post_name] => hello-world
+    [to_ping] => 
+    [pinged] => 
+    [post_modified] => 2016-07-19 22:16:20
+    [post_modified_gmt] => 2016-07-19 22:16:20
+    [post_parent] => 0
+    [menu_order] => 0
+    [post_mime_type] => 
+    [guid] => http://vccw.dev/?p=1
+)
+
+[19-Jul-2016 22:16:46 UTC] Array
+(
+    [post_author] => 1
+    [post_date] => 2016-07-11 16:35:12
+    [post_date_gmt] => 2016-07-11 16:35:12
+    [post_content] => Welcome to WordPress. This is your first post. Edit or delete it, then start writing!
+
+[do_widget id=pu_media_upload-2]
+
+&nbsp;
+
+&nbsp;
+    [post_content_filtered] => 
+    [post_title] => Hello world!
+    [post_excerpt] => 
+    [post_status] => publish
+    [post_type] => post
+    [comment_status] => open
+    [ping_status] => open
+    [post_password] => 
+    [post_name] => hello-world
+    [to_ping] => 
+    [pinged] => 
+    [post_modified] => 2016-07-19 22:16:46
+    [post_modified_gmt] => 2016-07-19 22:16:46
+    [post_parent] => 0
+    [menu_order] => 0
+    [post_mime_type] => 
+    [guid] => http://vccw.dev/?p=1
+)
+
+[19-Jul-2016 22:16:54 UTC] Array
+(
+    [post_author] => 1
+    [post_date] => 2016-07-11 16:35:12
+    [post_date_gmt] => 2016-07-11 16:35:12
+    [post_content] => Welcome to WordPress. This is your first post. Edit or delete it, then start writing!
+
+[do_widget id=pu_media_upload-2]
+
+&nbsp;
+
+&nbsp;
+    [post_content_filtered] => 
+    [post_title] => Hello world!
+    [post_excerpt] => 
+    [post_status] => publish
+    [post_type] => post
+    [comment_status] => open
+    [ping_status] => open
+    [post_password] => 
+    [post_name] => hello-world
+    [to_ping] => 
+    [pinged] => 
+    [post_modified] => 2016-07-19 22:16:54
+    [post_modified_gmt] => 2016-07-19 22:16:54
+    [post_parent] => 0
+    [menu_order] => 0
+    [post_mime_type] => 
+    [guid] => http://vccw.dev/?p=1
+)
+
+[19-Jul-2016 22:16:59 UTC] Array
+(
+    [post_author] => 1
+    [post_date] => 2016-07-11 16:35:12
+    [post_date_gmt] => 2016-07-11 16:35:12
+    [post_content] => Welcome to WordPress. This is your first post. Edit or delete it, then start writing!
+
+[do_widget id=pu_media_upload-2]
+
+&nbsp;
+
+&nbsp;
+    [post_content_filtered] => 
+    [post_title] => Hello world!
+    [post_excerpt] => 
+    [post_status] => publish
+    [post_type] => post
+    [comment_status] => open
+    [ping_status] => open
+    [post_password] => 
+    [post_name] => hello-world
+    [to_ping] => 
+    [pinged] => 
+    [post_modified] => 2016-07-19 22:16:59
+    [post_modified_gmt] => 2016-07-19 22:16:59
+    [post_parent] => 0
+    [menu_order] => 0
+    [post_mime_type] => 
+    [guid] => http://vccw.dev/?p=1
+)
+
+[19-Jul-2016 22:17:34 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING) in /var/www/wordpress/wp-content/themes/twentysixteen/functions.php on line 442
+[19-Jul-2016 22:17:34 UTC] PHP Stack trace:
+[19-Jul-2016 22:17:34 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/post.php:0
+[19-Jul-2016 22:17:34 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/post.php:12
+[19-Jul-2016 22:17:34 UTC] PHP   3. require_once() /var/www/wordpress/wp-admin/admin.php:31
+[19-Jul-2016 22:17:34 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[19-Jul-2016 22:17:34 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:68
+[19-Jul-2016 22:22:58 UTC] PHP Notice:  Undefined variable: format_value in /var/www/wordpress/wp-content/themes/twentysixteen/functions.php on line 442
+[19-Jul-2016 22:22:58 UTC] PHP Stack trace:
+[19-Jul-2016 22:22:58 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/post.php:0
+[19-Jul-2016 22:22:58 UTC] PHP   2. edit_post() /var/www/wordpress/wp-admin/post.php:193
+[19-Jul-2016 22:22:58 UTC] PHP   3. wp_update_post() /var/www/wordpress/wp-admin/includes/post.php:376
+[19-Jul-2016 22:22:58 UTC] PHP   4. wp_insert_post() /var/www/wordpress/wp-includes/post.php:3602
+[19-Jul-2016 22:22:58 UTC] PHP   5. do_action() /var/www/wordpress/wp-includes/post.php:3340
+[19-Jul-2016 22:22:58 UTC] PHP   6. call_user_func_array:{/var/www/wordpress/wp-includes/plugin.php:525}() /var/www/wordpress/wp-includes/plugin.php:525
+[19-Jul-2016 22:22:58 UTC] PHP   7. do_something_with_a_post() /var/www/wordpress/wp-includes/plugin.php:525
+[19-Jul-2016 22:37:59 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING) in /var/www/wordpress/wp-content/themes/twentysixteen/functions.php on line 445
+[19-Jul-2016 22:37:59 UTC] PHP Stack trace:
+[19-Jul-2016 22:37:59 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[19-Jul-2016 22:37:59 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/admin-ajax.php:22
+[19-Jul-2016 22:37:59 UTC] PHP   3. require_once() /var/www/wordpress/wp-load.php:37
+[19-Jul-2016 22:37:59 UTC] PHP   4. require_once() /var/www/wordpress/wp-config.php:68
+[19-Jul-2016 22:38:06 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING) in /var/www/wordpress/wp-content/themes/twentysixteen/functions.php on line 445
+[19-Jul-2016 22:38:06 UTC] PHP Stack trace:
+[19-Jul-2016 22:38:06 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/post.php:0
+[19-Jul-2016 22:38:06 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/post.php:12
+[19-Jul-2016 22:38:06 UTC] PHP   3. require_once() /var/www/wordpress/wp-admin/admin.php:31
+[19-Jul-2016 22:38:06 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[19-Jul-2016 22:38:06 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:68
+[19-Jul-2016 22:44:03 UTC] PHP Parse error:  syntax error, unexpected 'editor' (T_STRING) in /var/www/wordpress/wp-content/themes/twentysixteen/functions.php on line 455
+[19-Jul-2016 22:44:03 UTC] PHP Stack trace:
+[19-Jul-2016 22:44:03 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/post.php:0
+[19-Jul-2016 22:44:03 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/post.php:12
+[19-Jul-2016 22:44:03 UTC] PHP   3. require_once() /var/www/wordpress/wp-admin/admin.php:31
+[19-Jul-2016 22:44:03 UTC] PHP   4. require_once() /var/www/wordpress/wp-load.php:37
+[19-Jul-2016 22:44:03 UTC] PHP   5. require_once() /var/www/wordpress/wp-config.php:68
+[19-Jul-2016 22:44:04 UTC] PHP Parse error:  syntax error, unexpected 'editor' (T_STRING) in /var/www/wordpress/wp-content/themes/twentysixteen/functions.php on line 455
+[19-Jul-2016 22:44:04 UTC] PHP Stack trace:
+[19-Jul-2016 22:44:04 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[19-Jul-2016 22:44:04 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/admin-ajax.php:22
+[19-Jul-2016 22:44:04 UTC] PHP   3. require_once() /var/www/wordpress/wp-load.php:37
+[19-Jul-2016 22:44:04 UTC] PHP   4. require_once() /var/www/wordpress/wp-config.php:68

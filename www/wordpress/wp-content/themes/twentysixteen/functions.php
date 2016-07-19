@@ -419,3 +419,55 @@ function twentysixteen_widget_tag_cloud_args( $args ) {
 	return $args;
 }
 add_filter( 'widget_tag_cloud_args', 'twentysixteen_widget_tag_cloud_args' );
+
+
+
+function my_connection_types() {
+	p2p_register_connection_type( array(
+		'name' => 'posts_to_pages',
+		'from' => array('post', 'acme_product'),
+		'to' => 'page'
+	) );
+}
+add_action( 'p2p_init', 'my_connection_types' );
+
+function on_post_import( $post_id ) {
+	// custom function using $post_id
+}
+add_action( 'wp_insert_post', 'on_post_import' );
+
+function do_something_with_a_post($id ,$data) {
+	$post = get_post($id);
+	//update_post_meta($id, '_wp_page_template', 'YOUR-NEW-TEMPLATE-HERE.php');
+	$template = get_field('template', $id, true);
+	$data['page_template'] =   $template. '.php';
+	//update_post_meta($id, "_wp_page_template", "/template-parts/".  $template. ".php");
+	error_log(print_r(TEMPLATEPATH . '/template-parts/'.  $template. '.php'), true);
+	//die();
+
+	//print_r($data);
+	// now do something with it
+}
+add_action('pre_post_update', 'do_something_with_a_post', 10,2);
+
+add_action('init', 'my_rem_editor_from_post_type');
+function my_rem_editor_from_post_type() {
+	remove_post_type_support( 'page', 'editor' );
+}
+
+// http://wordpress.stackexchange.com/questions/195660/change-post-template-the-proper-way
+
+
+add_action( 'init', 'create_post_type' );
+function create_post_type() {
+	register_post_type( 'acme_product',
+		array(
+			'labels' => array(
+				'name' => __( 'Products' ),
+				'singular_name' => __( 'Product' )
+			),
+			'public' => true,
+			'has_archive' => true,
+		)
+	);
+}
